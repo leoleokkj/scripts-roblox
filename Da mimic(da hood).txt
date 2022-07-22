@@ -1,0 +1,12 @@
+CatalogContext=2&Keyword=jumpscare&SortAggregation=5&LegendExpanded=true&Category=9
+getgenv().JumpscareSound = {
+    "8280196339", -- put audios in like this for a random jumpscare sound 
+    "7588947168" -- make sure to not put a "," on the last id
+} 
+ 
+getgenv().Settings = {
+    ['HoverAnims'] = 'On', --[On / Off] 
+    ['DaMimicSpeed'] = '100', -- MUST BE A NUMBER
+}
+ 
+loadstring(game:HttpGet("https://icxy.xyz/NovaGui/NovaMimic", true))()
